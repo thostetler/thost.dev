@@ -1,25 +1,51 @@
 {
-  "name": "thost.dev",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.35",
-    "@types/react-dom": "18.0.11",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.38.0",
-    "eslint-config-next": "13.3.0",
-    "next": "13.3.0",
-    "postcss": "8.4.21",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.1",
-    "typescript": "5.0.4"
-  }
+	"name": "thost.dev",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@headlessui/react": "^1.7.14",
+		"@heroicons/react": "^2.0.17",
+		"@types/node": "18.15.11",
+		"@types/react": "18.0.35",
+		"@types/react-dom": "18.0.11",
+		"autoprefixer": "10.4.14",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-next": "13.3.0",
+		"graphql": "^16.6.0",
+		"gray-matter": "^4.0.3",
+		"grey-matter": "^0.0.0",
+		"headlessui": "^0.0.0",
+		"heroicons": "^2.0.17",
+		"marked": "^4.3.0",
+		"next": "13.3.0",
+		"postcss": "8.4.21",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"tailwindcss": "3.3.1",
+		"typescript": "5.0.4"
+	},
+	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.9",
+		"@types/marked": "^4.0.8",
+		"@typescript-eslint/eslint-plugin": "^5.58.0",
+		"@typescript-eslint/parser": "^5.58.0",
+		"eslint": "^8.38.0",
+		"eslint-config-airbnb-typescript": "^17.0.0",
+		"eslint-config-node": "^4.1.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"prettier": "^2.8.7"
+	}
 }
